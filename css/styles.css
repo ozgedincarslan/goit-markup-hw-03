@@ -31,21 +31,19 @@ img {
 }
 
 /*header start*/
-header{
-  border-bottom: 1px solid #e7e9fc
-  width: 1440px;
-  height: 72px;
+header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header-box{
+.header-box {
   display: flex;
 }
 
 header nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   margin-top: 24px;
+  justify-content: space-between;
 }
 
 header nav ul {
@@ -79,7 +77,7 @@ header address {
   text-transform: uppercase;
 }
 
-.header-list-items{
+.header-list-items {
   display: flex;
   gap: 40px;
 }
@@ -102,9 +100,8 @@ header address {
 }
 
 .contact-info {
-  font-style: normal; 
+  font-style: normal;
 }
-
 
 .addresses {
   font-size: 16px;
@@ -122,7 +119,7 @@ header address {
   color: #404bbf;
 }
 
-.contact-list-items{
+.contact-list-items {
   display: flex;
   gap: 40px;
 }
@@ -160,7 +157,7 @@ header address {
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
-  min-width: 169px; 
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -176,22 +173,24 @@ header address {
 /*first section end*/
 
 /*second section start*/
-.visually-hidden{
+.visually-hidden {
   position: absolute;
-  width: 1px; 
-  height: 1px; 
-  padding: 0; 
-  margin: -1px; 
-  overflow: hidden; 
-  clip: rect(0, 0, 0, 0); 
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.general-info{
+.general-info {
   padding: 120px 0;
 }
 
-.general-info-list{
+.general-info-list {
   display: flex;
   width: 1128px;
   height: 104px;
@@ -249,7 +248,7 @@ header address {
   border-radius: 0px 0px 4px 4px;
 }
 
-.name-title{
+.name-title {
   padding: 32px 0;
 }
 
@@ -273,7 +272,7 @@ header address {
 /*third section end*/
 
 /*fourth section start*/
-.our-portfolio-sec{
+.our-portfolio-sec {
   padding: 120px 0;
 }
 
@@ -295,12 +294,12 @@ header address {
   row-gap: 48px;
 }
 
-.our-portfolio-list-items{
+.our-portfolio-list-items {
   width: calc((100% - 72px) / 4);
   flex: 1 1 calc(33.333% - 20px);
 }
 
-.portfolio-item-details{
+.portfolio-item-details {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -317,6 +316,7 @@ header address {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-prgrph {
@@ -334,7 +334,7 @@ header address {
   padding: 100px 0;
 }
 
-.logo-leftside{
+.logo-leftside {
   display: inline-block;
   margin-bottom: 16px;
 }

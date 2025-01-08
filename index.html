@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Webstudio</title>
 
-    <!--fonts-->
+    <!--fonts start-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
@@ -18,31 +18,31 @@
     />
     <!--fonts end-->
 
+    <!--normalize-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
+    <!--css files-->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--header start-->
-    <header>
+    <header class="main-header">
       <div class="header-box container">
         <nav class="top-menu">
-          <div class="logo">
-            <a href="#" class="logo-leftside"
-              >Web<span class="logo-rightside">Studio</span></a
-            >
-          </div>
-          <div class="menu">
-            <ul class="header-list-items">
-              <li><a href="./index.html" class="header-list">Studio</a></li>
-              <li><a href="" class="header-list">Portfolio</a></li>
-              <li><a href="" class="header-list">Contacts</a></li>
-            </ul>
-          </div>
+          <a href="#" class="logo-leftside"
+            >Web<span class="logo-rightside">Studio</span></a
+          >
 
+          <ul class="header-list-items">
+            <li><a href="./index.html" class="header-list">Studio</a></li>
+            <li><a href="" class="header-list">Portfolio</a></li>
+            <li><a href="" class="header-list">Contacts</a></li>
+          </ul>
+
+          <!--address links-->
           <address class="contact-info">
             <ul class="contact-list-items">
               <li>
@@ -251,19 +251,18 @@
     </main>
 
     <!--footer start-->
-      <footer class="bottom-box">
-        <div class="container"> 
-        
-          <a href="#" class="logo-leftside"
-            >Web<span class="logo-otherrightside">Studio</span></a
-          >
-       
+    <footer class="bottom-box">
+      <div class="container">
+        <a href="#" class="logo-leftside"
+          >Web<span class="logo-otherrightside">Studio</span></a
+        >
+
         <p class="footer-prgrph">
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.
         </p>
       </div>
-      </footer>
+    </footer>
     <!--footer end-->
   </body>
 </html>
