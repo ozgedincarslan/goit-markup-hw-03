@@ -21,6 +21,10 @@ img {
   display: block;
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
   display: block;
   position: relative;
@@ -77,6 +81,11 @@ header address {
   gap: 40px;
 }
 
+.contact-list-items {
+  display: flex;
+  gap: 40px;
+}
+
 .header-list {
   color: #2e2f42;
   font-weight: 500;
@@ -94,10 +103,6 @@ header address {
   color: #404bbf;
 }
 
-.contact-info {
-  font-style: normal;
-}
-
 .addresses {
   font-size: 16px;
   line-height: 1.5;
@@ -112,11 +117,6 @@ header address {
 
 .addresses:focus {
   color: #404bbf;
-}
-
-.contact-list-items {
-  display: flex;
-  gap: 40px;
 }
 /*header end*/
 
