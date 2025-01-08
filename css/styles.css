@@ -46,11 +46,6 @@ header nav {
   justify-content: space-between;
 }
 
-header nav ul {
-  display: flex;
-  gap: 40px;
-}
-
 header address {
   display: flex;
 }
